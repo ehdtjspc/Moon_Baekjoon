@@ -31,7 +31,7 @@ namespace CODE
             Console.WriteLine($"{nub2}");
         }
         else{
-            int nub3 =  Math.Max(a1,Math.Max(a2,a3))*100;
+            int nub3 =  Math.Max(a1,Math.Max(a2,a3))*100; //내부함수 a2,a3를 비교하고 더 큰 수를 반환하고 외부함수 a1과 비교함
             Console.WriteLine($"{nub3}");
         }
 
